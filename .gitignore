@@ -1,4 +1,4 @@
-﻿*.zip
+*.zip
 license.xml
 *-Local.ps1
 packages/
@@ -22,3 +22,9 @@ windows/tests/**/solr-data/**/*
 *.pem
 *.crt
 *.key
+build/windows/tests/10.0.x/sitecore-xp1/solr-data/
+build/windows/tests/10.0.x/sitecore-xp1/mssql-data/Sitecore.Xdb.Collection.ShardMapManager_log.ldf
+build/windows/tests/10.0.x/sitecore-xp1/mssql-data/Sitecore.Xdb.Collection.Shard1.mdf
+build/windows/tests/10.0.x/sitecore-xp1/mssql-data/
+build/tools/sat/
+build/windows/tests/10.0.x/sitecore-xp1/traefik/certs/mkcert.exe
