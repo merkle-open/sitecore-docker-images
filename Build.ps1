@@ -20,11 +20,11 @@ param(
     [string]$RegistryPassword = "",
     [Parameter()]
     [ValidatePattern('[0-9]+\.[0-9]+\.[0-9]+')]
-    [string[]]$SitecoreVersion = @("10.0.0"),
+    [string[]]$SitecoreVersion = @("9.2.0"),
     [ValidateSet("xm", "xp", "xc", "xp0")]
-    [string[]]$Topology = @("xm", "xp", "xp0"),
+    [string[]]$Topology = @("xm", "xp"),
     [ValidateSet("2004", "1909", "1903", "ltsc2019", "linux")]
-    [string[]]$OSVersion = @("ltsc2019"),
+    [string[]]$OSVersion = @("2004"),
     [Parameter()]
     [switch]$IncludeSpe,
     [Parameter()]
