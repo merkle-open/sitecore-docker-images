@@ -48,7 +48,7 @@ function Invoke-Build
         ,
         [Parameter(Mandatory = $false)]
         [ValidateSet("WhenChanged", "Always", "Never")]
-        [string]$PushMode = "WhenChanged"
+        [string]$PushMode = "Always"
         ,
         [Parameter(Mandatory = $false)]
         [ValidateSet("Always", "Never")]
